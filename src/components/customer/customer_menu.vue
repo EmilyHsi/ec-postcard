@@ -18,9 +18,9 @@
               <span class="badge badge-pill bg-sub text-white badge-position">{{ cart.length }}</span>
             </router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link" to="/admin/products">管理後台</router-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>    
