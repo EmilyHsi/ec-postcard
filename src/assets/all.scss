@@ -164,28 +164,26 @@ ol,ul {
     }
 }
 .icon-bg {
-        background-color: #24936E;
-        color: #fff;
-        height: 4.5rem;
-        width: 4.5rem;
-        display: block;
-        line-height: 5.3rem;
-        // font-size: 1.2rem;
-        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
-        transition: all 0.1s 0s ease-out;
+    background-color: #24936E;
+    color: #fff;
+    height: 4.5rem;
+    width: 4.5rem;
+    display: block;
+    line-height: 5.3rem;
+    // font-size: 1.2rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    transition: all 0.1s 0s ease-out;
 
-        &:hover {
-            box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
-            transform: translateY(-4px);
-            transition: all 0.25s 0s ease-out;
+    &:hover {
+        box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+        transform: translateY(-4px);
+        transition: all 0.25s 0s ease-out;
 
-        }
+    }
 }
 .c-sale {
     max-width: 100%;
-    height: 100%;
     background-image: url('~@/../static/images/texture.png');
-    margin: 0 auto;
     box-shadow: 0 0.5px 2px #c4c4c4;
 
     &__img {
@@ -200,12 +198,10 @@ ol,ul {
         img{
             width: 50%;
         }
-        
     }
     &__text {
         width: 45%;
         text-align: center;
-        padding: 20px;
 
         @media (max-width:768px) {
             width: 100%;
@@ -216,7 +212,7 @@ ol,ul {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 85px;
 
     @media (max-width:768px) {
         margin-top: 30px;
@@ -232,12 +228,11 @@ ol,ul {
         width: 35%;
         margin-left: 20px;
 
-    @media (max-width:768px) {
-        width: 80%;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
+        @media (max-width:768px) {
+            width: 80%;
+            margin-left: 0;
+            margin-top: 20px;
+        }
     }
 }
 .c-time{
@@ -259,7 +254,7 @@ ol,ul {
     }
 }
 .goshop-btn{
-    margin: 40px 0 0;
+    margin: 30px 0 10px;
 }
 .l-coupon {
     font-size: 18px;

@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="container py-4 l-sale">
+    <div class="container l-sale">
       <div class="c-sale d-flex flex-wrap">
         <div class="c-sale__img">
           <img src="~@/../static/images/sale4.jpg">
