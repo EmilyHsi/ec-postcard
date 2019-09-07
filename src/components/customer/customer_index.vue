@@ -59,11 +59,11 @@
     </div>
     <div class="container l-sale">
       <div class="c-sale d-flex flex-wrap">
-        <div class="c-sale__img">
-          <img src="~@/../static/images/sale4.jpg">
-          <img src="~@/../static/images/sale5.jpg">
-          <img src="~@/../static/images/sale6.jpg">
-          <img src="~@/../static/images/sale7.jpg">
+        <div class="c-sale__img d-flex flex-wrap">
+          <img src="@/assets/img/sale4.jpg" class="img-fluid">
+          <img src="@/assets/img/sale5.jpg" class="img-fluid">
+          <img src="@/assets/img/sale6.jpg" class="img-fluid">
+          <img src="@/assets/img/sale7.jpg" class="img-fluid">
         </div>
         <div class="c-sale__text">
           <div class="h3 text-underline">中秋限定・限時優惠</div>
